@@ -1,5 +1,5 @@
 Name:          amdgpu-opengl-switcher
-Version:       1
+Version:       1.1
 Release:       0%{?dist}
 License:       GPL
 Group:         Unspecified
@@ -13,12 +13,12 @@ URL:           https://github.com/Ashark/archlinux-amdgpu-pro/blob/master/progl
 
 
 
-Provides:      amdgpu-opengl-switcher = 1-0.fc36
-Provides:      amdgpu-opengl-switcher(x86-64) = 1-0.fc36
+Provides:      amdgpu-opengl-switcher = 1.1-0.fc36
+Provides:      amdgpu-opengl-switcher(x86-64) = 1.1-0.fc36
 Requires:      /usr/bin/bash
 
 %install
-tar -xf amdgpu-opengl-switcher-1-0.f36.x86_64.tar.gz
+tar -xf amdgpu-opengl-switcher-1.1-0.f36.x86_64.tar.gz
 mv usr %{buildroot}/
 
 %description

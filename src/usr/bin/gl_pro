@@ -18,7 +18,7 @@ gl_zink() {
 }
 
 gl_pro() {
-    export LD_LIBRARY_PATH="/opt/amdgpu-pro/OpenGL/lib64:/opt/amdgpu-pro/OpenGL/lib32:${LD_LIBRARY_PATH}" LIBGL_DRIVERS_PATH="/opt/amdgpu-pro/OpenGL/lib64/dri:/opt/amdgpu-pro/OpenGL/lib32/dri"
+    export LD_LIBRARY_PATH="/opt/amdgpu/libdrm/lib64:/opt/amdgpu/libdrm/lib32:/opt/amdgpu-pro/OpenGL/lib64:/opt/amdgpu-pro/OpenGL/lib:${LD_LIBRARY_PATH}" LIBGL_DRIVERS_PATH="/opt/amdgpu-pro/OpenGL/lib64/dri:/opt/amdgpu-pro/OpenGL/lib/dri"
 }
 
 if [[ $(basename $0) == gl_mesa ]]; then

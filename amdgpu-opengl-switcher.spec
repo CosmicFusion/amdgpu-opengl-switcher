@@ -8,7 +8,7 @@ Summary:       Select needed OpenGL implementation with gl_mesa, gl_zink or gl_p
 
 URL:           https://github.com/Ashark/archlinux-amdgpu-pro/blob/master/progl
 
-
+Source0:        %{name}-%{version}-%{release}.x86_64.tar.gz
 
 
 
@@ -18,7 +18,7 @@ Provides:      amdgpu-opengl-switcher(x86-64) = 1.1-0.fc36
 Requires:      /usr/bin/bash
 
 %install
-tar -xf amdgpu-opengl-switcher-1.1-0.f36.x86_64.tar.gz
+tar -xf %{SOURCE0}
 mv usr %{buildroot}/
 
 %description

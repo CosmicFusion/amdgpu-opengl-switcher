@@ -1,5 +1,5 @@
 Name:          amdgpu-opengl-switcher
-Version:       1.1
+Version:       1.2
 Release:       0%{?dist}
 License:       GPL
 Group:         Unspecified
@@ -13,8 +13,8 @@ Source0:        %{name}-%{version}-%{release}.x86_64.tar.gz
 
 
 
-Provides:      amdgpu-opengl-switcher = 1.1-0.fc36
-Provides:      amdgpu-opengl-switcher(x86-64) = 1.1-0.fc36
+Provides:      amdgpu-opengl-switcher = %{version}-%{release}
+Provides:      amdgpu-opengl-switcher(x86-64) = %{version}-%{release}
 Requires:      /usr/bin/bash
 
 %install

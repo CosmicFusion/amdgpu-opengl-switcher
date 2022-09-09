@@ -1,5 +1,5 @@
 Name:          amdgpu-opengl-switcher
-Version:       1.2
+Version:       2.0
 Release:       0%{?dist}
 License:       GPL
 Group:         Unspecified
